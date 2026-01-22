@@ -155,7 +155,7 @@ export const Portfolio: React.FC = () => {
           
           {/* IMAGE - 1024x622 fits perfectly here */}
           <img
-            src={`/public/img${index + 1}.png`}
+            src={`/img${index + 1}.png`}
             alt={item.title}
             loading="lazy"
             className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-1000 opacity-70"

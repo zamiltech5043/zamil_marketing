@@ -132,7 +132,7 @@ export const Testimonials: React.FC = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {REVIEWS.map((review, idx) => (
-            <TestimonialCard key={idx} review={review} idx={idx} />
+            <TestimonialCard  review={review} idx={idx} />
           ))}
         </div>
       </div>

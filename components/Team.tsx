@@ -5,22 +5,22 @@ const TEAM = [
   {
     name: "Malik Waqas",
     role: "Founder & Chief Strategist",
-    img: "/public/team/waqas.png"
+    img: "/team/waqas.png"
   },
   {
     name: "Muzamil Abbas",
     role: "Head of Growth",
-    img: "/public/team/muzanil.png"
+    img: "/team/muzanil.png"
   },
   {
     name: "Sualeha Arif",
     role: "Marketing Director",
-    img: "/public/team/girl1.png"
+    img: "/team/girl1.png"
   },
   {
     name: "Muqadas Arshad",
     role: "Creative Director",
-    img: "/public/team/girl2.png"
+    img: "/team/girl2.png"
   }
 ];
 
@@ -123,7 +123,7 @@ export const Team: React.FC = () => {
           className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           {TEAM.map((member, idx) => (
-            <TeamMemberCard key={idx} member={member} />
+            <TeamMemberCard  member={member} />
           ))}
         </motion.div>
       </div>
