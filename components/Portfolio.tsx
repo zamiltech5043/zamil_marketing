@@ -200,12 +200,12 @@ export const Portfolio: React.FC = () => {
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             {[
-              { title: "Faboolux Interior Design", service: "Interior Design", link: "https://faboolux.com", img: "/components/website/web1.png" },
-              { title: "Aura Interiors", service: "Luxury Brand Interior ", link: "https://aurainteriors.pk", img: "/components/website/web2.png" },
-              { title: "Awesome Interiors", service: "Premium Portfolio Site", link: "https://awesomeinteriors.co.in", img: "/components/website/web3.png" },
-              { title: "Good Luck Interiors", service: "Interior Platform Design", link: "https://www.goodluckinteriors.com", img: "/components/website/web4.png" },
-              { title: "Level UAE", service: "Interior & Furniture", link: "https://www.leveluae.com/", img: "/components/website/web5.png" },
-              { title: "Living by SNP", service: "Interior Design Company", link: "https://livingbysnp.com/", img: "/components/website/web6.png" }
+              { title: "Faboolux Interior Design", service: "Interior Design", link: "https://faboolux.com", img: "website/web1.png" },
+              { title: "Aura Interiors", service: "Luxury Brand Interior ", link: "https://aurainteriors.pk", img: "website/web2.png" },
+              { title: "Awesome Interiors", service: "Premium Portfolio Site", link: "https://awesomeinteriors.co.in", img: "website/web3.png" },
+              { title: "Good Luck Interiors", service: "Interior Platform Design", link: "https://www.goodluckinteriors.com", img: "website/web4.png" },
+              { title: "Level UAE", service: "Interior & Furniture", link: "https://www.leveluae.com/", img: "website/web5.png" },
+              { title: "Living by SNP", service: "Interior Design Company", link: "https://livingbysnp.com/", img: "website/web6.png" }
             ].map((project, index) => (
               <motion.div variants={itemVariants} key={`web-${index}`} className="group perspective-1000">
                 <TiltCard className="bg-[#0A0A0A] border border-white/10 rounded-sm overflow-hidden relative hover:border-[#FFD54F]/40 transition-all duration-500 flex flex-col h-full">
