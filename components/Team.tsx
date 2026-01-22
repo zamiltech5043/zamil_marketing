@@ -5,22 +5,22 @@ const TEAM = [
   {
     name: "Malik Waqas",
     role: "Founder & Chief Strategist",
-    img: "/components/team/waqas.png"
+    img: "/public/team/waqas.png"
   },
   {
     name: "Muzamil Abbas",
     role: "Head of Growth",
-    img: "/components/team/muzanil.png"
+    img: "/public/team/muzanil.png"
   },
   {
     name: "Sualeha Arif",
     role: "Marketing Director",
-    img: "/components/team/girl1.png"
+    img: "/public/team/girl1.png"
   },
   {
     name: "Muqadas Arshad",
     role: "Creative Director",
-    img: "/components/team/girl2.png"
+    img: "/public/team/girl2.png"
   }
 ];
 
