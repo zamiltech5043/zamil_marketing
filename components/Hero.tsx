@@ -66,26 +66,18 @@ export const Hero: React.FC<HeroProps> = ({ onGetProposal }) => {
               We provide results-driven marketing for interior design, including Google Map ranking, SEO, and social & search ads.
             </motion.p>
 
-            <motion.form variants={fadeInUp} onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3 w-full max-w-2xl">
-              <div className="flex-grow">
-                <input
-                  type="text"
-                  value={url}
-                  onChange={(e) => setUrl(e.target.value)}
-                  placeholder="Enter Website Address"
-                  className="w-full bg-[#1A1A1A] border border-white/10 px-6 py-4 rounded-sm text-white focus:outline-none focus:border-[#FFD54F] transition-colors"
-                  required
-                />
-              </div>
-              <motion.button 
+            <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-3 w-full max-w-2xl">
+              <motion.a 
+                href="https://forms.gle/Y1WzQjVdFUdvtFJd9"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                type="submit"
-                className="bg-[#FFD54F] hover:bg-[#ffe082] text-black font-black px-8 py-4 rounded-sm uppercase tracking-tighter whitespace-nowrap"
+                className="bg-[#FFD54F] hover:bg-[#ffe082] text-black font-black px-8 py-4 rounded-sm uppercase tracking-tighter whitespace-nowrap text-center"
               >
                 Get My Free Proposal
-              </motion.button>
-            </motion.form>
+              </motion.a>
+            </motion.div>
             
             <motion.div variants={fadeInUp} className="mt-8 flex items-center space-x-4 opacity-50">
               <div className="flex -space-x-2">

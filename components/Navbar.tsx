@@ -71,22 +71,26 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenQuote }) => {
                 {link.name}
               </a>
             ))}
-            <button 
-              onClick={onOpenQuote}
-              className="bg-[#FFD54F] hover:bg-white transition-all text-black font-black px-6 py-2 rounded-sm text-xs uppercase tracking-widest"
+            <a 
+              href="https://forms.gle/Y1WzQjVdFUdvtFJd9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#FFD54F] hover:bg-white transition-all text-black font-black px-6 py-2 rounded-sm text-xs uppercase tracking-widest inline-block"
             >
               Get a Quote
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Toggle */}
           <div className="md:hidden flex items-center space-x-4">
-             <button 
-              onClick={onOpenQuote}
-              className="bg-[#FFD54F] text-black font-black px-4 py-2 rounded-sm text-[10px] uppercase tracking-widest"
+             <a 
+              href="https://forms.gle/Y1WzQjVdFUdvtFJd9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#FFD54F] text-black font-black px-4 py-2 rounded-sm text-[10px] uppercase tracking-widest inline-block"
              >
               Quote
-            </button>
+            </a>
             <button 
               onClick={toggleMenu}
               className="text-white p-2 hover:bg-white/10 rounded-full transition-colors focus:outline-none"
