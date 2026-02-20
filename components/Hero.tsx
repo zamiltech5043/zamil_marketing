@@ -63,7 +63,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetProposal }) => {
               </span>
             </motion.h1>
 
-            <motion.p variants={fadeInUp} className="text-lg lg:text-xl text-gray-300 max-w-xl leading-relaxed mb-10">
+            <motion.p variants={fadeInUp} className="className="text-3xl lg:text-4xl font-heading font-black leading-[1.2] mb-6">
               We provide results-driven marketing for interior design, including Google Map ranking, SEO, and social & search ads.
             </motion.p>
 
