@@ -47,7 +47,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetProposal }) => {
               Top Rated and Award Winning
             </motion.span>
             
-            <motion.h1 variants={fadeInUp} className="text-5xl lg:text-6xl font-heading font-black leading-[1.1] mb-8">
+            <motion.h1 variants={fadeInUp} className="text-[28px] lg:text-[40px] font-black leading-[1.2] mb-6">
               "Marketing Leader with 3+ Years of
  <br />
               <span className="relative inline-block">
