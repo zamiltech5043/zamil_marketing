@@ -43,7 +43,7 @@ export const Hero: React.FC<HeroProps> = ({ onGetProposal }) => {
             animate="visible"
             className="lg:col-span-7 flex flex-col justify-center z-10"
           >
-            <motion.span variants={fadeInUp} className="text-white/80 text-xs font-bold tracking-[0.3em] uppercase mb-6 block">
+            <motion.span variants={fadeInUp} className="className="text-[28px] lg:text-[40px] font-heading font-black leading-[1.2] mb-6"">
               Top Rated and Award Winning
             </motion.span>
             
