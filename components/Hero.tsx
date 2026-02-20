@@ -48,10 +48,10 @@ export const Hero: React.FC<HeroProps> = ({ onGetProposal }) => {
             </motion.span>
             
             <motion.h1 variants={fadeInUp} className="text-5xl lg:text-6xl font-heading font-black leading-[1.1] mb-8">
-              "Marketing Leader with 3+ Years' of
+              "Marketing Leader with 3+ Years of
  <br />
               <span className="relative inline-block">
-                 Experience in Interior Design & Decore"
+                 Experience in Web Development, Graphic Designing & Digital Marketing"
                 <motion.svg 
                   initial={{ pathLength: 0, opacity: 0 }}
                   animate={{ pathLength: 1, opacity: 1 }}
